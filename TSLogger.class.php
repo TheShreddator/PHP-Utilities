@@ -12,7 +12,7 @@ require_once("TSDatabase.class.php");
 class TSLogger {
 		
 	protected $DB;  // Database Object
-	private $api_key = ""; // API Key for IPInfoDB.com
+	private $api_key = "xxxx"; // API Key for IPInfoDB.com
 	
 	/////////////////////////////////////////////////////////////////////////////
 	//  __construct(string $host, string $user, string $pass, string $db)
