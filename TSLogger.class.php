@@ -25,7 +25,6 @@ class TSLogger {
 	} 
 	
 	
-	
 	///////////////////////////////////////////////////////////////////////
 	//	Connect(string $host, string $user, string $pass, string $db)
 	//	Description:  Establish database connection
