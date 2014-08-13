@@ -1,14 +1,14 @@
 <?php
 ///////////////////////////////////////////////////////////////////////////////////////////////////
 //  Class Name:		TSDatabase
-//	Last Update:	08/12/2014 @ 5:40 PM
+//  Last Update:	08/12/2014 @ 5:40 PM
 //  Description:	Creates a Database object for use by other classes or processes
-//	Example:		require_once('TSDatabase.class.php');
-//					$TSDatabase = new TSDatabase('host_ip', 'user_name', 'password', 'database');
-//					$results = $TSDatabase -> query("SELECT * FROM table");
-//					while($row = $TSDatabase -> fetch_array($results)){
-//						echo $row[0];
-//					} 
+//  Example:		require_once('TSDatabase.class.php');
+//			$TSDatabase = new TSDatabase('host_ip', 'user_name', 'password', 'database');
+//			$results = $TSDatabase -> query("SELECT * FROM table");
+//			while($row = $TSDatabase -> fetch_array($results)){
+//				echo $row[0];
+//			} 
 ///////////////////////////////////////////////////////////////////////////////////////////////////
 class TSDatabase {
 	
